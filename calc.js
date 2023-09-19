@@ -1,3 +1,6 @@
+// Author Email:id86mosab@yahoo.com
+// Author Website:mosab.ir
+
 var previousValue = 0;
 var operationStatus = false;
 var lastOperation = null;

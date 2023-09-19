@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="description" content="sample Calculator">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calc-section">        
+        <table cellpadding="6" cellspacing="18">
+            <tr>
+                <td colspan="4"><input type="text" name="resultInput " id="resultInput" class="result-input" value="0"></td>            
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" id="seven" class="digitBtns numberBtns" value="7"></td>
+                <td><input type="button" name="eight" id="eight" class="digitBtns numberBtns" value="8"></td>
+                <td><input type="button" name="nine" id="nine" class="digitBtns numberBtns" value="9"></td>
+                <td><input type="button" name="divide" id="divide" class="opBtns numberBtns" value="/"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="four" id="four" class="digitBtns numberBtns" value="4"></td>
+                <td><input type="button" name="five" id="five" class="digitBtns numberBtns" value="5"></td>
+                <td><input type="button" name="six" id="six" class="digitBtns numberBtns" value="6"></td>
+                <td><input type="button" name="mul" id="mul" class="opBtns numberBtns" value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="one" id="one" class="digitBtns numberBtns" value="1"></td>
+                <td><input type="button" name="two" id="two" class="digitBtns numberBtns" value="2"></td>
+                <td><input type="button" name="three" id="three" class="digitBtns numberBtns" value="3"></td>
+                <td><input type="button" name="sub" id="sub" class="opBtns numberBtns" value="-"></td>
+            </tr>
+            <tr>           
+                <td><input type="button" name="ac" id="ac" class="numberBtns" value="C"></td>            
+                <td><input type="button" name="zero" id="zero" class="digitBtns numberBtns" value="0"></td>            
+                <td><input type="button" name="equal" id="equal" class="numberBtns" value="="></td>
+                <td><input type="button" name="add" id="add" class="opBtns numberBtns" value="+"></td>
+            </tr>
+        </table>
+    </div>    
+    <div class="copyRight"><p>برنامه نویس : مهندس مصعب شریفی</p></div>
+    <script src="calc.js" async defer></script>
+</body>
+</html>

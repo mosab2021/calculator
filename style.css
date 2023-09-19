@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(165, 165, 165);
+}
+.numberBtns{
+    width: 60px;
+    height: 60px;
+    font-size:x-large;
+    border-radius: 10px;
+}
+
+.numberBtns:hover{
+   color: red;
+background-color: rgb(193, 233, 233);
+}
+
+
+.result-input{
+    width: 320px;
+    height: 60px;
+    font-size:xx-large;
+    text-align: right;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#calc-section{
+    margin: 0px auto;
+    width: 380px;
+    background-color: azure;
+    border: 2px #0095ff dashed;
+    border-radius: 25px;
+}
+
+.copyRight{
+    width: 250px;
+    margin:0px auto;
+    text-align: center;
+    font-size: large;
+
+}
